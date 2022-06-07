@@ -15,7 +15,7 @@
 <figure>
 <p align="center"><br>
     <img align="center" src="images/inferno-slow.gif" /> <br>
-    <figcaption align="center"><i> conitnuous slicing in the z-axis </i> </figcaption>
+    <figcaption><p align="center"><i> conitnuous slicing in the z-axis </i><\p> </figcaption>
 </P>
 </figure>
 
@@ -30,7 +30,7 @@
 <figure>
 <p align="center"><br>
     <img align="center" src="images/output.gif" /> <br>
-    <figcaption align="center"><i> conitnuous slicing in the z-axis </i> </figcaption>
+    <figcaption><p align="center"><i> conitnuous slicing in the z-axis </i></p> </figcaption>
 </P>
 </figure>
 
