@@ -2,7 +2,7 @@ import numpy as np
 %matplotlib qt
 import matplotlib.pyplot as plt
 import cv2 as cv
-img = cv.imread('num.png',0)
+img = cv.imread('images/box.png',0)
 ret,thresh1 = cv.threshold(img,127,255,cv.THRESH_BINARY)
 # plt.imshow(thresh1,cmap="gray")
 flag =1 
@@ -87,6 +87,6 @@ def removeObject(image):
     temp[min_rows-1:max_rows+1, min_cols-1:max_cols+1] = 255
     return temp
     
-plt.imshow(fianl)
+plt.imshow(final)
 
 # print("bounlist",boundary_indices, len(boundary_indices))
